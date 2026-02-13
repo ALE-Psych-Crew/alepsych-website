@@ -123,11 +123,11 @@ $metaFullTitle = $metaTitle . ' | ALE Psych';
           <div class="hero-actions">
             <a
               class="btn-ghost"
-              href="https://github.com/ALE-Psych-Crew/ALE-Psych/releases"
+              href="https://github.com/ALE-Psych-Crew/ALE-Psych"
               rel="noopener"
               target="_blank"
             >
-              <span data-i18n="downloads.githubButton">GitHub Releases</span>
+              <span data-i18n="downloads.githubButton">Repositorio en GitHub</span>
               <span class="btn-icon" aria-hidden="true">
                 <img src="/site/assets/svgs/github.svg" alt="" aria-hidden="true" />
               </span>
@@ -184,10 +184,8 @@ $metaFullTitle = $metaTitle . ' | ALE Psych';
                 <div class="download-version">ZIP · Win x86</div>
               </div>
             </div>
-            <p class="download-desc" data-i18n-html="downloads.cards.windows32.desc">
-              Compatible para máquinas antiguas de 32-bit. (Una vez
-              <a class="inline-link" href="https://haxe.org/download/version/5.0.0-preview.1/" target="_blank" rel="noopener">Haxe 5</a>
-              salga, esto no estará disponible)
+            <p class="download-desc" data-i18n="downloads.cards.windows32.desc">
+              Compatible para máquinas antiguas de 32-bit.
             </p>
             <div class="download-actions">
               <a
@@ -236,19 +234,19 @@ $metaFullTitle = $metaTitle . ' | ALE Psych';
                 <img src="/site/assets/svgs/os-apple.svg" alt="" aria-hidden="true" />
               </div>
               <div>
-                <div class="download-title" data-i18n="downloads.cards.ios.title">iOS</div>
-                <div class="download-version">IPA/ZIP · iPhone/iPad</div>
+                <div class="download-title" data-i18n="downloads.cards.ios.title">Compilar desde código fuente</div>
+                <div class="download-version">README · Source</div>
               </div>
             </div>
-            <p class="download-desc" data-i18n="downloads.cards.ios.desc">Build en IPA. (No Testeada)</p>
+            <p class="download-desc" data-i18n="downloads.cards.ios.desc">No hay artefacto de iOS publicado en CI actualmente.</p>
             <div class="download-actions">
               <a
                 class="btn-primary"
-                href="https://nightly.link/ALE-Psych-Crew/ALE-Psych/workflows/builds.yaml/main/iOS%20Build.zip"
+                href="https://github.com/ALE-Psych-Crew/ALE-Psych#readme"
                 rel="noopener"
                 target="_blank"
               >
-                <span data-i18n="downloads.cards.ios.button">Descargar iOS</span>
+                <span data-i18n="downloads.cards.ios.button">Ver guía de compilación</span>
                 <span class="btn-icon" aria-hidden="true">
                   <img src="/site/assets/svgs/download.svg" alt="" aria-hidden="true" />
                 </span>
@@ -337,6 +335,7 @@ $metaFullTitle = $metaTitle . ' | ALE Psych';
               </a>
             </div>
           </article>
+
         </div>
       </section>
 
