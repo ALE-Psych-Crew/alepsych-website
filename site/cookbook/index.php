@@ -906,7 +906,7 @@ require __DIR__ . '/../includes/bootstrap.php';
     const categoryStorageKey = 'cookbookCategoryState';
     const wipStorageKey = 'cookbook_wip_notice_dismissed';
     const GITHUB_EDIT_BASE =
-      'https://github.com/ALE-Psych-Crew/ale-psych-crew.github.io/edit/main/site/cookbook/';
+      'https://github.com/ALE-Psych-Crew/alepsych-website/edit/main/site/cookbook/';
     function getUiCopy() {
       return uiCopy[activeLanguage] || uiCopy.en;
     }
