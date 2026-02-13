@@ -36,7 +36,7 @@ const I18N_COPY = {
       },
       downloads: {
         title: "Downloads",
-        description: "Get the latest ALE Psych builds for Windows, macOS, Linux, Android, and iOS.",
+        description: "Get the latest ALE Psych builds for Windows, macOS, Linux, and Android, plus source build instructions.",
       },
       mods: {
         title: "Mods",
@@ -66,7 +66,7 @@ const I18N_COPY = {
       heroHighlight: "ALE Psych",
       heroDesc:
         "Choose between engine versions.<br>Pick the installer you need and <strong>jump right in</strong>.",
-      githubButton: "GitHub Releases",
+      githubButton: "GitHub Repository",
       sectionTitle: "Choose your platform",
       sectionSubtitle:
         "All downloads in one place. The engine updates frequently, so stay tuned for the latest stable release.",
@@ -78,8 +78,7 @@ const I18N_COPY = {
         },
         windows32: {
           title: "Windows 32-bit",
-          desc:
-            "Compatible with older 32-bit machines. (Once <a href=\"https://haxe.org/download/version/5.0.0-preview.1/\" target=\"_blank\" rel=\"noopener\">Haxe 5</a> ships, this won't be available.)",
+          desc: "Compatible with older 32-bit machines.",
           button: "Download Windows 32-bit",
         },
         android: {
@@ -88,9 +87,9 @@ const I18N_COPY = {
           button: "Download Android build",
         },
         ios: {
-          title: "iOS",
-          desc: "IPA build. (Untested.)",
-          button: "Download iOS build",
+          title: "Build from source",
+          desc: "No iOS artifact is currently published in CI.",
+          button: "View build instructions",
         },
         macos: {
           title: "macOS",
@@ -151,7 +150,7 @@ const I18N_COPY = {
       },
       downloads: {
         title: "Descargas",
-        description: "Obtén las últimas builds de ALE Psych para Windows, macOS, Linux, Android e iOS.",
+        description: "Obtén las últimas builds de ALE Psych para Windows, macOS, Linux y Android, más guía para compilar desde código fuente.",
       },
       mods: {
         title: "Mods",
@@ -181,7 +180,7 @@ const I18N_COPY = {
       heroHighlight: "ALE Psych",
       heroDesc:
         "Elige entre las versiones del Motor.<br>Escoge el instalador que necesites y <strong>empieza de inmediato</strong>.",
-      githubButton: "GitHub Releases",
+      githubButton: "Repositorio en GitHub",
       sectionTitle: "Eljie tu Plataforma",
       sectionSubtitle:
         "Todas las Descargas en una pestaña. El Engine se Actualiza con Frecuencia, mantente al tanto para tener la Última Versión Estable.",
@@ -193,8 +192,7 @@ const I18N_COPY = {
         },
         windows32: {
           title: "Windows 32-bit",
-          desc:
-            "Compatible para máquinas antiguas de 32-bit. (Una vez <a href=\"https://haxe.org/download/version/5.0.0-preview.1/\" target=\"_blank\" rel=\"noopener\">Haxe 5</a> salga, esto no estará disponible)",
+          desc: "Compatible para máquinas antiguas de 32-bit.",
           button: "Descargar Windows 32-bit",
         },
         android: {
@@ -203,9 +201,9 @@ const I18N_COPY = {
           button: "Descargar Android",
         },
         ios: {
-          title: "iOS",
-          desc: "Build en IPA. (No Testeada)",
-          button: "Descargar iOS",
+          title: "Compilar desde código fuente",
+          desc: "No hay artefacto de iOS publicado en CI actualmente.",
+          button: "Ver guía de compilación",
         },
         macos: {
           title: "macOS",
